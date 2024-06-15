@@ -1,0 +1,99 @@
+body {
+    background-color: #F5EDF0;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.navbar {
+    margin-top: 4em;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    font-size: large;
+    color: #424C55;
+    justify-content: space-between;
+}
+
+.navbaritemscontainer {
+    margin-right: 4em;
+}
+
+.navbaritem {
+    margin: 1em;
+    padding: 0.1em;
+    justify-self: right;
+    transition-duration: 0.2s;
+    font-size: 1.1em;
+}
+
+.navbaritem:hover {
+    background-color: #424C55;
+    color: #F5EDF0;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+.navbar_nameitem {
+    margin-left: 1.5em;
+    font-size: 3.5em;
+    font-weight: bold;
+    justify-self: flex-start;
+    border-bottom: 5px solid #F7567C;
+    padding-left: 0.5em;
+}
+
+h1 {
+    text-decoration: underline;
+    text-decoration-color: #F7567C;
+    color: #424C55;
+}
+
+.aboutme {
+    font-size: 1.5em;
+    margin-left: 4em;
+    margin-right: 4em;
+    margin-top: 2em;
+
+    a {
+        text-decoration: underline;
+        text-decoration-color: #F7567C;
+    }
+
+    h2 {
+        color: #424C55;
+    }
+}
+
+u {
+    text-decoration-color: #F7567C;
+    transition-duration: 0.2s;
+}
+
+u:hover {
+    text-decoration-color: #F5EDF0;
+    transition-duration: 0.2s;
+}
+
+img {
+    margin-left: 6em;
+    margin-top: 2em;
+}
+
+.notfound {
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-top: 10em;
+    width: 100%;
+
+    h1 {
+        text-decoration: underline;
+        text-decoration-color: #F7567C;
+        color: #424C55;
+    }
+}
